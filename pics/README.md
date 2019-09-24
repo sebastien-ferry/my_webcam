@@ -1,0 +1,3 @@
+Folder: pics/
+
+Storing the files...
