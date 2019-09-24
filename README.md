@@ -1,3 +1,6 @@
+:warning: drafty forever state
+[Very] limited error management
+
 # my_webcam
 
 bash scripts to take a picture every XX seconds
@@ -20,4 +23,7 @@ Both scripts are wrappers around ffmpeg
  ffmpeg -v 16 -f video4linux2 -s "$resolution" -i "$device" -ss 0:0:2 -frames 1 "$folder/$filename"
 ```
 
-
+# TODO di doo
+- [x] Push first drafty version
+- [ ] Add systemd timer files
+- [ ] Handle errors / parameters...
